@@ -3,10 +3,12 @@
 }
 
 body {
+  text-align: center;
   margin: 0;
   font-family: "Poetsen One", sans-serif;
   color: black;
   background-color: white;
+  transition: background-color 0.2s ease;
 }
 
 nav {
@@ -42,30 +44,49 @@ main {
 
 h1 {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 60px;
 }
-.Introducao{
-  display: block;
+
+p {
+  color: #000000;
+  max-width: 800px;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+img {
+  max-height: 500px;
+  border: 10px solid rgb(170, 0, 0);
+  border-radius: 15px;
+}
+
+div {
+  padding: 30px 50px 30px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
-.SOTN{
-  display: block;
-  text-align: center;
+
+button {
+  text-transform: uppercase;
+  color: #090909;
+  padding: 15px 60px;
+  margin: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 0.5em;
+  background: #990000;
+  cursor: pointer;
+  border: 1px solid #000000;
+  transition: all 0.3s;
 }
-.Richter{
-  display: block;
-  text-align: center;
+
+button:active {
+  color: #ffffff;
+  background: #3f0000;
 }
-.IGA{
-  display: block;
-  text-align: center;
- 
-}
-.AyamiK{
-  display: block;
-  text-align: center;
-}
-.Konami{
-  display: block;
-  text-align: center;
-}
+
